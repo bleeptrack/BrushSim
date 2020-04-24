@@ -167,6 +167,8 @@ function buildLines(text){
     let linegroup = new Group();
     let lines = [];
     
+    text = text.toLowerCase();
+    
     //iterate through letters in text
     for (let i = 0; i < text.length; i++) {
         
